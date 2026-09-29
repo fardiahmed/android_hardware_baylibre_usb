@@ -1,1 +1,3 @@
 type sysfs_power_supply, sysfs_type, fs_type;
+# Type-C sysfs for vendor API 202504, which lacks the platform sysfs_typec.
+type sysfs_typec_vendor, sysfs_type, fs_type;
